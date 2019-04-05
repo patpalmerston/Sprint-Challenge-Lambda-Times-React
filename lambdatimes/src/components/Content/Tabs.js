@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import Tab from './Tab';
+
+
+
 const Tabs = props => {
   return (
     <div className="tabs">
@@ -13,8 +16,8 @@ const Tabs = props => {
               console.log(props.tabs)
               return <Tab 
                         tab={tabs} 
-                        selectedTab={props.tabData} 
-                        selectedTabHandler={props.changeSelected} 
+                        selectedTab={props.selectedTab} 
+                        selectTabHandler={props.selectTabHandler(tabs)} 
                         key={index}/>
             })}
 
