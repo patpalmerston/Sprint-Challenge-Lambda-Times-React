@@ -29,9 +29,20 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+PropTypes are important for identifying the various values of components. As Apps get larger it is important to keep track of where and what everything is for debugging reasons and to help future developers understand the vision behind the project.
+
 - [ ] Describe a life-cycle event in React?
+
+A life-cycle event has different phases that represent the various stages of life within the action of rendering an APP. Birth/Growth/Death also know as the Mounting Phase, Updating Phase and Un-mounting Phase. Each phase represents a certain set of actions or potential actions to be taken to help the dom Render the various elements of a React App in a concise and effective manor.
+
 - [ ] Explain the details of a Higher Order Component?
+
+A Higher Order Component is like a Higher Order Function as in it takes in other components as arguments and executes their code within its own parameters. Basically a HOC is a type of function that takes in a component and returns a new component.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+You can use Vanilla CSS and import style sheets to each component. This is a familiar and simple way to directly access the various classes to be styled. There is also Inline styling which allows quick direct access to elements of a component, this also allows for us to create variables that can store styles and be applied to individual elements. Then there is styled-components which needs to be installed and imported. After that process we are able to make our own styled components which act as html element tags but have build in styles in them. The Styled Components are able to use nesting as well which makes them pretty convenient. 
 
 ## Project Setup
 
